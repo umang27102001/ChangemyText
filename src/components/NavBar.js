@@ -43,6 +43,6 @@ NavBar.propTypes = {
   myMode: PropTypes.string.isRequired,
 };
 NavBar.defaultProps = {
-  title: "TextUtils",
+  title: "ChangemyText",
   myMode: "light",
 };

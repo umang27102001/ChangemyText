@@ -26,7 +26,7 @@ export default function About(props) {
             style={{color:props.myMode==="light"?"#212529":"white",backgroundColor:props.myMode==="light"?"white":"#212529"}}
           >
             <div className="accordion-body" >
-             Using TextUtils you can manipulate your text like you can convert your text into uppercase or lowercase etc.
+             Using ChangemyText you can manipulate your text like you can convert your text into uppercase or lowercase etc.
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function About(props) {
             style={{color:props.myMode==="light"?"#212529":"white",backgroundColor:props.myMode==="light"?"white":"#212529"}}
           >
             <div className="accordion-body">
-              TextUtils is very user Friendly app and free to use where you can manipulate your text.
+              ChangemyText is very user Friendly app and free to use where you can manipulate your text.
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function About(props) {
             style={{color:props.myMode==="light"?"#212529":"white",backgroundColor:props.myMode==="light"?"white":"#212529"}}
           >
             <div className="accordion-body">
-              You can run textUtils on desktop or a tablet or a mobile phone.
+              You can run ChangemyText on desktop or a tablet or a mobile phone.
             </div>
           </div>
         </div>

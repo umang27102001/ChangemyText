@@ -21,7 +21,7 @@ function App() {
       setmode("dark");
       setModeIcon(Mode1);
       document.body.style.backgroundColor = "#2d2f2e";
-      document.title = "TextUtils Dark";
+      document.title = "ChangemyText Dark";
       document
         .getElementsByTagName("link")[0]
         .setAttribute("href", "/text-format.png");
@@ -32,7 +32,7 @@ function App() {
     } else {
       document.body.style.backgroundColor = "white";
       setModeIcon(Mode2);
-      document.title = "TextUtils Light";
+      document.title = "ChangemyText Light";
       document
         .getElementsByTagName("link")[0]
         .setAttribute("href", "/file.png");
@@ -45,7 +45,7 @@ function App() {
   };
   return (
     <>
-      <NavBar title="Textutils" myMode={mode} modeIcon={modeIcon} toggleMode={toggleMode} />
+      <NavBar title="ChangemyText" myMode={mode} modeIcon={modeIcon} toggleMode={toggleMode} />
       <Alert alert={alert} />
       {/* <About myMode={mode}/> */}
       <TextForm myMode={mode} head="Enter Text Below" showAlert={showAlert} />
